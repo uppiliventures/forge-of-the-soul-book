@@ -211,9 +211,7 @@
     border-top: 1px solid rgba(200, 144, 26, 0.2);
   }
 
-  .meta-item {
-    text-align: center;
-  }
+  .meta-item { text-align: center; }
 
   .meta-num {
     font-family: 'Cormorant Garamond', serif;
@@ -234,7 +232,7 @@
 
   .meta-divider { width: 1px; height: 40px; background: rgba(200,144,26,0.2); }
 
-  /* HERO RIGHT — book visual */
+  /* HERO RIGHT */
   .hero-right {
     position: relative;
     height: 100vh;
@@ -250,10 +248,7 @@
     background: radial-gradient(ellipse at 60% 50%, rgba(139,58,18,0.12) 0%, transparent 65%);
   }
 
-  .book-frame {
-    position: relative;
-    width: 320px;
-  }
+  .book-frame { position: relative; width: 320px; }
 
   .book-cover {
     width: 280px;
@@ -261,10 +256,7 @@
     background: var(--forge);
     border-radius: 4px 12px 12px 4px;
     position: relative;
-    box-shadow:
-      -8px 0 20px rgba(0,0,0,0.3),
-      inset -3px 0 8px rgba(0,0,0,0.4),
-      inset 3px 0 6px rgba(255,255,255,0.03);
+    box-shadow: -8px 0 20px rgba(0,0,0,0.3), inset -3px 0 8px rgba(0,0,0,0.4), inset 3px 0 6px rgba(255,255,255,0.03);
     margin: 0 auto;
   }
 
@@ -303,11 +295,7 @@
     text-align: center;
   }
 
-  .book-ornament {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 20px;
-  }
+  .book-ornament { width: 48px; height: 48px; margin-bottom: 20px; }
 
   .book-title-cover {
     font-family: 'Cormorant Garamond', serif;
@@ -327,13 +315,7 @@
     letter-spacing: 0.06em;
   }
 
-  .book-rule {
-    width: 60px;
-    height: 1px;
-    background: var(--gold);
-    margin: 16px auto;
-    opacity: 0.5;
-  }
+  .book-rule { width: 60px; height: 1px; background: var(--gold); margin: 16px auto; opacity: 0.5; }
 
   .book-author {
     font-family: 'DM Mono', monospace;
@@ -365,21 +347,8 @@
     justify-content: center;
   }
 
-  .book-badge-line1 {
-    font-family: 'DM Mono', monospace;
-    font-size: 8px;
-    font-weight: 400;
-    color: var(--forge);
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
-  .book-badge-line2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 10px;
-    font-weight: 600;
-    color: var(--forge);
-  }
+  .book-badge-line1 { font-family: 'DM Mono', monospace; font-size: 8px; font-weight: 400; color: var(--forge); letter-spacing: 0.06em; text-transform: uppercase; }
+  .book-badge-line2 { font-family: 'Cormorant Garamond', serif; font-size: 10px; font-weight: 600; color: var(--forge); }
 
   /* GITA QUOTE */
   .gita-strip {
@@ -394,13 +363,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 120px,
-      rgba(200,144,26,0.04) 120px,
-      rgba(200,144,26,0.04) 121px
-    );
+    background: repeating-linear-gradient(90deg, transparent, transparent 120px, rgba(200,144,26,0.04) 120px, rgba(200,144,26,0.04) 121px);
   }
 
   .gita-quote {
@@ -425,10 +388,8 @@
     position: relative;
   }
 
-  /* WHAT IS THE BOOK */
-  .section {
-    padding: 100px 80px;
-  }
+  /* SECTIONS */
+  .section { padding: 100px 80px; }
 
   .section-label {
     display: flex;
@@ -462,7 +423,7 @@
 
   h2 em { font-style: italic; color: var(--gold); }
 
-  /* THE 12CS */
+  /* 12CS */
   .cs-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -485,9 +446,7 @@
   .c-card::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     height: 2px;
     background: var(--gold);
     transform: scaleX(0);
@@ -506,20 +465,8 @@
     margin-bottom: 8px;
   }
 
-  .c-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: var(--forge);
-  }
-
-  .c-desc {
-    font-size: 13px;
-    font-weight: 300;
-    color: var(--smoke);
-    margin-top: 8px;
-    line-height: 1.6;
-  }
+  .c-name { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 500; color: var(--forge); }
+  .c-desc { font-size: 13px; font-weight: 300; color: var(--smoke); margin-top: 8px; line-height: 1.6; }
 
   /* ABOUT */
   .about-grid {
@@ -530,19 +477,9 @@
     margin-top: 48px;
   }
 
-  .about-body {
-    font-size: 17px;
-    font-weight: 300;
-    color: var(--forge-mid);
-    line-height: 1.8;
-  }
-
+  .about-body { font-size: 17px; font-weight: 300; color: var(--forge-mid); line-height: 1.8; }
   .about-body p + p { margin-top: 20px; }
-
-  .about-body strong {
-    font-weight: 500;
-    color: var(--gold);
-  }
+  .about-body strong { font-weight: 500; color: var(--gold); }
 
   .about-stat-grid {
     display: grid;
@@ -551,32 +488,12 @@
     background: rgba(200,144,26,0.12);
   }
 
-  .about-stat {
-    background: var(--parchment);
-    padding: 28px;
-  }
+  .about-stat { background: var(--parchment); padding: 28px; }
+  .stat-big { font-family: 'Cormorant Garamond', serif; font-size: 52px; font-weight: 300; color: var(--gold); line-height: 1; }
+  .stat-desc { font-size: 13px; font-weight: 300; color: var(--smoke); margin-top: 6px; line-height: 1.5; }
 
-  .stat-big {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 52px;
-    font-weight: 300;
-    color: var(--gold);
-    line-height: 1;
-  }
-
-  .stat-desc {
-    font-size: 13px;
-    font-weight: 300;
-    color: var(--smoke);
-    margin-top: 6px;
-    line-height: 1.5;
-  }
-
-  /* TESTIMONIALS / WHAT READERS SAY */
-  .testimonial-strip {
-    background: var(--forge);
-    padding: 80px;
-  }
+  /* TESTIMONIALS */
+  .testimonial-strip { background: var(--forge); padding: 80px; }
 
   .testimonial-grid {
     display: grid;
@@ -586,47 +503,14 @@
     background: rgba(200,144,26,0.15);
   }
 
-  .testimonial-card {
-    background: rgba(26,15,0,0.95);
-    padding: 36px;
-  }
+  .testimonial-card { background: rgba(26,15,0,0.95); padding: 36px; }
+  .t-stars { display: flex; gap: 4px; margin-bottom: 16px; }
+  .t-star { color: var(--gold); font-size: 14px; }
+  .t-quote { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-style: italic; font-weight: 300; color: var(--gold-pale); line-height: 1.65; }
+  .t-name { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.14em; color: var(--gold); text-transform: uppercase; margin-top: 20px; }
+  .t-role { font-size: 12px; color: var(--smoke); margin-top: 3px; }
 
-  .t-stars {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 16px;
-  }
-
-  .t-star {
-    color: var(--gold);
-    font-size: 14px;
-  }
-
-  .t-quote {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 17px;
-    font-style: italic;
-    font-weight: 300;
-    color: var(--gold-pale);
-    line-height: 1.65;
-  }
-
-  .t-name {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.14em;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin-top: 20px;
-  }
-
-  .t-role {
-    font-size: 12px;
-    color: var(--smoke);
-    margin-top: 3px;
-  }
-
-  /* CTA SECTION */
+  /* CTA */
   .cta-section {
     padding: 120px 80px;
     text-align: center;
@@ -637,11 +521,9 @@
   .cta-section::before {
     content: '';
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 400px;
+    width: 600px; height: 400px;
     background: radial-gradient(ellipse, rgba(200,144,26,0.08) 0%, transparent 70%);
     pointer-events: none;
   }
@@ -683,34 +565,15 @@
   }
 
   .btn-large:hover { background: var(--ember); }
-
-  .btn-kindle {
-    background: var(--gold);
-    color: var(--forge);
-  }
-
+  .btn-kindle { background: var(--gold); color: var(--forge); }
   .btn-kindle:hover { background: var(--gold-light); color: var(--forge); }
-
-  .btn-pdf {
-    background: var(--forge-mid);
-    color: var(--gold-pale);
-  }
-
+  .btn-pdf { background: var(--forge-mid); color: var(--gold-pale); }
   .btn-pdf:hover { background: var(--ember); }
-
-  .btn-free {
-    background: transparent;
-    color: var(--gold);
-    border: 1px solid var(--gold);
-  }
-
+  .btn-free { background: transparent; color: var(--gold); border: 1px solid var(--gold); }
   .btn-free:hover { background: var(--gold); color: var(--forge); }
 
   /* FOOTER */
-  footer {
-    background: var(--forge);
-    padding: 60px 80px 40px;
-  }
+  footer { background: var(--forge); padding: 60px 80px 40px; }
 
   .footer-top {
     display: flex;
@@ -720,81 +583,22 @@
     border-bottom: 1px solid rgba(200,144,26,0.15);
   }
 
-  .footer-brand {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
-    font-weight: 300;
-    color: var(--gold-pale);
-  }
+  .footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 300; color: var(--gold-pale); }
+  .footer-brand small { display: block; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.18em; color: var(--smoke); text-transform: uppercase; margin-top: 4px; }
 
-  .footer-brand small {
-    display: block;
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    letter-spacing: 0.18em;
-    color: var(--smoke);
-    text-transform: uppercase;
-    margin-top: 4px;
-  }
+  .footer-links { display: flex; gap: 48px; }
 
-  .footer-links {
-    display: flex;
-    gap: 48px;
-  }
-
-  .footer-col h4 {
-    font-family: 'DM Mono', monospace;
-    font-size: 9px;
-    letter-spacing: 0.18em;
-    color: var(--gold);
-    text-transform: uppercase;
-    margin-bottom: 16px;
-  }
-
-  .footer-col a {
-    display: block;
-    font-size: 13px;
-    font-weight: 300;
-    color: var(--smoke);
-    text-decoration: none;
-    margin-bottom: 10px;
-    transition: color 0.2s;
-  }
-
+  .footer-col h4 { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.18em; color: var(--gold); text-transform: uppercase; margin-bottom: 16px; }
+  .footer-col a { display: block; font-size: 13px; font-weight: 300; color: var(--smoke); text-decoration: none; margin-bottom: 10px; transition: color 0.2s; }
   .footer-col a:hover { color: var(--gold-pale); }
 
-  .footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 32px;
-  }
-
-  .footer-copy {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    color: var(--smoke);
-  }
-
-  .footer-isbn {
-    font-family: 'DM Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    color: rgba(200,144,26,0.5);
-  }
+  .footer-bottom { display: flex; justify-content: space-between; align-items: center; padding-top: 32px; }
+  .footer-copy { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; color: var(--smoke); }
+  .footer-isbn { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.1em; color: rgba(200,144,26,0.5); }
 
   /* FADE IN */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.7s ease, transform 0.7s ease;
-  }
-
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
 
   @media (max-width: 900px) {
     nav { padding: 16px 24px; }
@@ -845,7 +649,7 @@
     </p>
 
     <div class="hero-ctas">
-      <a href="https://www.amazon.co.uk" class="btn-primary" target="_blank">
+      <a href="#get" class="btn-primary">
         Get the Book &rarr;
       </a>
       <a href="#framework" class="btn-secondary">Explore the 12Cs</a>
@@ -940,66 +744,18 @@
   <p style="font-size:17px; font-weight:300; color:var(--smoke); max-width:520px; margin-top:20px; line-height:1.7;">A complete cycle for moving from stuck to clear, from unclear to purposeful, from existing to becoming fully alive.</p>
 
   <div class="cs-grid fade-in">
-    <div class="c-card">
-      <div class="c-number">01</div>
-      <div class="c-name">Clarity</div>
-      <div class="c-desc">Knowing what you actually want. The foundation everything is built on.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">02</div>
-      <div class="c-name">Closure</div>
-      <div class="c-desc">Releasing what's finished so you can move forward clean.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">03</div>
-      <div class="c-name">Compass</div>
-      <div class="c-desc">Finding your values and your north star direction.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">04</div>
-      <div class="c-name">Canvas</div>
-      <div class="c-desc">Creating the blank space in your life for what's next.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">05</div>
-      <div class="c-name">Creation</div>
-      <div class="c-desc">Building something real from your vision and your truth.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">06</div>
-      <div class="c-name">Commitment</div>
-      <div class="c-desc">Deciding fully, without the back door open.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">07</div>
-      <div class="c-name">Connection</div>
-      <div class="c-desc">Finding your people. Humans are tribal, not built for isolation.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">08</div>
-      <div class="c-name">Charting</div>
-      <div class="c-desc">Mapping the route from where you are to where you're going.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">09</div>
-      <div class="c-name">Coaching</div>
-      <div class="c-desc">Getting support. Then giving it. The cycle teaches itself.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">10</div>
-      <div class="c-name">Community</div>
-      <div class="c-desc">Building the circle that lifts you when you fall and amplifies your wins.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">11</div>
-      <div class="c-name">Contribution</div>
-      <div class="c-desc">Giving back. The place where transformation becomes legacy.</div>
-    </div>
-    <div class="c-card">
-      <div class="c-number">12</div>
-      <div class="c-name">Culture</div>
-      <div class="c-desc">The world you build around you and leave behind.</div>
-    </div>
+    <div class="c-card"><div class="c-number">01</div><div class="c-name">Clarity</div><div class="c-desc">Knowing what you actually want. The foundation everything is built on.</div></div>
+    <div class="c-card"><div class="c-number">02</div><div class="c-name">Closure</div><div class="c-desc">Releasing what's finished so you can move forward clean.</div></div>
+    <div class="c-card"><div class="c-number">03</div><div class="c-name">Compass</div><div class="c-desc">Finding your values and your north star direction.</div></div>
+    <div class="c-card"><div class="c-number">04</div><div class="c-name">Canvas</div><div class="c-desc">Creating the blank space in your life for what's next.</div></div>
+    <div class="c-card"><div class="c-number">05</div><div class="c-name">Creation</div><div class="c-desc">Building something real from your vision and your truth.</div></div>
+    <div class="c-card"><div class="c-number">06</div><div class="c-name">Commitment</div><div class="c-desc">Deciding fully, without the back door open.</div></div>
+    <div class="c-card"><div class="c-number">07</div><div class="c-name">Connection</div><div class="c-desc">Finding your people. Humans are tribal, not built for isolation.</div></div>
+    <div class="c-card"><div class="c-number">08</div><div class="c-name">Charting</div><div class="c-desc">Mapping the route from where you are to where you're going.</div></div>
+    <div class="c-card"><div class="c-number">09</div><div class="c-name">Coaching</div><div class="c-desc">Getting support. Then giving it. The cycle teaches itself.</div></div>
+    <div class="c-card"><div class="c-number">10</div><div class="c-name">Community</div><div class="c-desc">Building the circle that lifts you when you fall and amplifies your wins.</div></div>
+    <div class="c-card"><div class="c-number">11</div><div class="c-name">Contribution</div><div class="c-desc">Giving back. The place where transformation becomes legacy.</div></div>
+    <div class="c-card"><div class="c-number">12</div><div class="c-name">Culture</div><div class="c-desc">The world you build around you and leave behind.</div></div>
   </div>
 
   <div style="background: var(--forge); padding: 40px 48px; margin-top: 2px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;">
@@ -1030,22 +786,10 @@
     </div>
     <div>
       <div class="about-stat-grid">
-        <div class="about-stat">
-          <div class="stat-big">10K+</div>
-          <div class="stat-desc">Coaching conversations across two decades</div>
-        </div>
-        <div class="about-stat">
-          <div class="stat-big">20+</div>
-          <div class="stat-desc">Years of coaching, consulting, and creating</div>
-        </div>
-        <div class="about-stat">
-          <div class="stat-big">12</div>
-          <div class="stat-desc">Core transformation principles, one cycle</div>
-        </div>
-        <div class="about-stat">
-          <div class="stat-big">5yrs</div>
-          <div class="stat-desc">In the making, spoken into existence in lockdown</div>
-        </div>
+        <div class="about-stat"><div class="stat-big">10K+</div><div class="stat-desc">Coaching conversations across two decades</div></div>
+        <div class="about-stat"><div class="stat-big">20+</div><div class="stat-desc">Years of coaching, consulting, and creating</div></div>
+        <div class="about-stat"><div class="stat-big">12</div><div class="stat-desc">Core transformation principles, one cycle</div></div>
+        <div class="about-stat"><div class="stat-big">5yrs</div><div class="stat-desc">In the making, spoken into existence in lockdown</div></div>
       </div>
       <div style="margin-top:24px; background: var(--ash); padding: 28px 32px; border-left: 2px solid var(--gold);">
         <p style="font-family:'Cormorant Garamond',serif; font-size:19px; font-style:italic; color:var(--forge); line-height:1.6;">"I didn't write this book like everyone else. I spoke it into existence, walking around my flat, holding my iPhone during lockdown and voicing the book into life."</p>
@@ -1065,25 +809,19 @@
 
   <div class="testimonial-grid">
     <div class="testimonial-card">
-      <div class="t-stars">
-        <span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span>
-      </div>
+      <div class="t-stars"><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span></div>
       <p class="t-quote">"Uppili doesn't let you stew in your confusion. He gets straight to the truth of what's holding you back. This framework changed how I approach every challenge."</p>
       <div class="t-name">Finance Director</div>
       <div class="t-role">London</div>
     </div>
     <div class="testimonial-card">
-      <div class="t-stars">
-        <span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span>
-      </div>
+      <div class="t-stars"><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span></div>
       <p class="t-quote">"I've read dozens of self-help books. This one actually gave me a reusable system. I finished the first cycle, then started again. It's exactly how he says it works."</p>
       <div class="t-name">Startup Founder</div>
       <div class="t-role">Manchester</div>
     </div>
     <div class="testimonial-card">
-      <div class="t-stars">
-        <span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span>
-      </div>
+      <div class="t-stars"><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span><span class="t-star">&#9733;</span></div>
       <p class="t-quote">"The voice in this book is different. Honest, direct, real. I felt like I had a wise friend finally telling me what I needed to hear, not what I wanted to."</p>
       <div class="t-name">Creative Director</div>
       <div class="t-role">Bristol</div>
@@ -1100,19 +838,19 @@
   <p>Kindle, Paperback, PDF, and a free first chapter. Published by Unrealised Books, Hertfordshire.</p>
 
   <div class="cta-buttons">
-    <a href="https://amzn.to/4nTERal" class="btn-large btn-kindle" target="_blank">
+    <a href="https://amzn.to/4nTERal" class="btn-large btn-kindle" target="_blank" rel="noopener">
       Kindle — £9.99 &rarr;
     </a>
-    <a href="https://amzn.to/4vceP4m" class="btn-large" target="_blank">
+    <a href="https://amzn.to/4vceP4m" class="btn-large" target="_blank" rel="noopener">
       Paperback &rarr;
     </a>
-    <a href="https://payhip.com/b/oDwky" class="btn-large btn-pdf" target="_blank">
+    <a href="https://payhip.com/b/oDwky" class="btn-large btn-pdf" target="_blank" rel="noopener">
       PDF — Direct from Author &rarr;
     </a>
   </div>
 
   <div style="margin-top:24px; display:flex; justify-content:center;">
-    <a href="https://payhip.com/b/5ahrG" class="btn-large btn-free" target="_blank">
+    <a href="https://payhip.com/b/5ahrG" class="btn-large btn-free" target="_blank" rel="noopener">
       Free Clarity Chapter &rarr;
     </a>
   </div>
@@ -1128,7 +866,7 @@
       <div style="font-family:'DM Mono',monospace; font-size:13px; color:var(--forge-mid); margin-top:4px;">Unrealised Books, 2025</div>
     </div>
     <div style="width:1px; height:32px; background:rgba(200,144,26,0.2);"></div>
-    <a href="https://unrealised.co.uk" style="text-align:center; text-decoration:none;">
+    <a href="https://unrealised.co.uk" style="text-align:center; text-decoration:none;" target="_blank" rel="noopener">
       <div style="font-family:'DM Mono',monospace; font-size:9px; letter-spacing:0.18em; color:var(--smoke); text-transform:uppercase;">Work with Uppili</div>
       <div style="font-family:'DM Mono',monospace; font-size:13px; color:var(--gold); margin-top:4px;">unrealised.co.uk</div>
     </a>
@@ -1153,14 +891,15 @@
       </div>
       <div class="footer-col">
         <h4>Uppili</h4>
-        <a href="https://unrealised.co.uk" target="_blank">Unrealised.co.uk</a>
-        <a href="https://youtube.com/@uppilinotes" target="_blank">Uppili Notes</a>
-        <a href="https://uppili.app" target="_blank">Meditation App</a>
+        <a href="https://unrealised.co.uk" target="_blank" rel="noopener">Unrealised.co.uk</a>
+        <a href="https://uppili.org" target="_blank" rel="noopener">Uppili.org</a>
+        <a href="https://youtube.com/@uppiliventures" target="_blank" rel="noopener">Uppili Notes</a>
+        <a href="https://uppili.app" target="_blank" rel="noopener">Meditation App</a>
       </div>
     </div>
   </div>
   <div class="footer-bottom">
-    <div class="footer-copy">&copy; 2025 Uppili Raghavachari. All rights reserved.</div>
+    <div class="footer-copy">&copy; 2026 Uppili Raghavachari. All rights reserved.</div>
     <div class="footer-isbn">ISBN 978-1-9192579-0-7</div>
   </div>
 </footer>
